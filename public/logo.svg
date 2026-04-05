@@ -1,0 +1,28 @@
+<svg width="320" height="96" viewBox="0 0 320 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04130C" />
+      <stop offset="60%" stop-color="#0F6B4A" />
+      <stop offset="100%" stop-color="#4CE281" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#13A17E" />
+      <stop offset="100%" stop-color="#4CE281" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#04130C" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="320" height="96" rx="20" fill="url(#bgGradient)" filter="url(#shadow)" />
+
+  <!-- Abstract glyph -->
+  <g transform="translate(28 18)">
+    <path d="M40 0C24 0 8 10 2 28C-4 46 4 64 20 72L26 58C16 52 11 40 14 29C18 16 29 8 42 8C55 8 66 16 70 29C73 40 68 52 58 58L64 72C80 64 88 46 82 28C76 10 60 0 44 0H40Z" fill="url(#accentGradient)" opacity="0.95" />
+    <path d="M24 52C26 60 34 66 44 66C54 66 62 60 64 52" stroke="#4CE281" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Wordmark -->
+  <text x="140" y="44" fill="#F5F7F4" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="30" font-weight="600" letter-spacing="0.02em">PM ELITE</text>
+  <text x="140" y="72" fill="#4CE281" font-family="'Inter', 'Segoe UI', sans-serif" font-size="22" font-weight="500" letter-spacing="0.28em">SKILLS</text>
+</svg>
