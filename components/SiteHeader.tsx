@@ -41,11 +41,11 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="nav-cta">
-          <Link className="btn ghost" href="/login">
-            Login
+          <Link className="btn ghost" href="https://app.pmintelligencehub.com/login">
+            Sign in
           </Link>
-          <Link className="btn primary" href="/#cta">
-            Start practicing
+          <Link className="btn primary" href="https://app.pmintelligencehub.com/signup">
+            Get Started
           </Link>
         </div>
       </div>
